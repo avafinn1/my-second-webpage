@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Writers & Ideas — Ava Finn</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Writers & Ideas</h1>
+      <p class="lede">A small, calm page about a few authors I return to.</p>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <ul class="wrap">
+      <li><a href="#woolf">Virginia Woolf</a></li>
+      <li><a href="#baldwin">James Baldwin</a></li>
+      <li><a href="#orwell">George Orwell</a></li>
+      <li><a href="#morrison">Toni Morrison</a></li>
+    </ul>
+  </nav>
+
+  <main id="main" class="wrap layout">
+    <article id="woolf" class="card">
+      <header>
+        <h2>Virginia Woolf</h2>
+      </header>
+      <p>Woolf writes with attention to inner life and passing time. <em>Mrs. Dalloway</em> and <em>To the Lighthouse</em> turn ordinary moments into structure. <em>A Room of One’s Own</em> still frames how we talk about creativity and space.</p>
+    </article>
+
+    <section id="baldwin" class="card">
+      <h2>James Baldwin</h2>
+      <p>Clear, steady, and unsparing. In <em>The Fire Next Time</em> and <em>Giovanni’s Room</em>, he looks at truth—public and private—and asks what honesty costs.</p>
+    </section>
+
+    <section id="orwell" class="card">
+      <h2>George Orwell</h2>
+      <p>Plain style used precisely. <em>1984</em> and <em>Animal Farm</em> stay relevant because they question how language and power shape what counts as “true.”</p>
+    </section>
+
+    <aside id="morrison" class="card aside">
+      <h3>Toni Morrison</h3>
+      <p>Memory, love, and history threaded together. <em>Beloved</em> and <em>Song of Solomon</em> move with lyrical force while staying grounded in lived detail.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 Ava Finn</p>
+    </div>
+  </footer>
+</body>
+</html>
